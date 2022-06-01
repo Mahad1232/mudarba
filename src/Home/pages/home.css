@@ -1,0 +1,15 @@
+.header__outer {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  margin-left: -1rem;
+  margin-top: -0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header__outer > h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
