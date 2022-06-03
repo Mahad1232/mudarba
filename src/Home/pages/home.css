@@ -27,3 +27,9 @@
 .login1 {
   padding-right: 0.5rem;
 }
+
+.body__outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
