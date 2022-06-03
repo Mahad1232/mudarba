@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../Home/pages/home.css';
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <section className="header__outer">
       <img
@@ -12,7 +12,9 @@ const Nav = () => {
       />
       <div className="login">
         <h3 className="login1">Login</h3>
-        <h3 className="login2">Get Started</h3>
+        <h3 onClick={props.getStarted} className="login2">
+          Get Started
+        </h3>
       </div>
     </section>
   );

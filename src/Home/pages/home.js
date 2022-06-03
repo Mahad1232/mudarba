@@ -4,12 +4,20 @@ import Aux from '../../Auxiliary/auxiliary.js';
 
 import './home.css';
 
+import { useNavigate } from 'react-router-dom';
+
 import Nav from '../../Nav/nav';
 
 const HomePage = () => {
+  const Navigate = useNavigate();
+
+  const getStarted = () => {
+    Navigate('/getStarted');
+  };
+
   return (
     <Aux>
-      <Nav getStarted="getStarted" />
+      <Nav getStarted={getStarted} />
       <section className="body__outer">
         <div>
           <h1 className="investment">Making Investment easier</h1>
