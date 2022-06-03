@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.getStarted__outer {
+  text-align: center;
+}
+
+.finPock {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
