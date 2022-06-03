@@ -4,26 +4,27 @@ import Aux from '../../Auxiliary/auxiliary.js';
 
 import './home.css';
 
+import Nav from '../../Nav/nav';
+
 const HomePage = () => {
   return (
     <Aux>
-      <section className="header__outer">
-        <h1 className="logo">Buisness Chain</h1>
-        <div className="login">
-          <h3 className="login1">Login</h3>
-          <h3 className="login1">Signup</h3>
-        </div>
-      </section>
+      <Nav getStarted="getStarted" />
       <section className="body__outer">
         <div>
-          <h1>Making Investment easier</h1>
-          <p>
+          <h1 className="investment">Making Investment easier</h1>
+          <p className="fin">
             FinPocket is a social investment platform for you to discuss,
-            analyze and trade stocks on the Pakistan Stock Exchange.
+            analyze and trade
           </p>
+          <p className="fin">stocks on the Pakistan Stock Exchange.</p>
         </div>
         <div>
-          <img src={} alt="My Logo" />
+          <img
+            className="myImg"
+            src="https://cdn.jsdelivr.net/gh/Mahad1232/mudarba@master/src/Images/top.gif"
+            alt="My Logo"
+          />
         </div>
       </section>
     </Aux>
