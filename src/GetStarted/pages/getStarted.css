@@ -1,9 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 .getStarted__outer {
   text-align: center;
 }
 
+.getStarted__inner {
+  background-color: whitesmoke;
+  width: 60vw;
+  margin: auto;
+}
+
 .finPock {
   font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  padding: 2rem 0;
+}
+
+.outer__signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
