@@ -15,10 +15,10 @@ const getStartedPage = () => {
           <h3 className="finPock">FinPocket helps u save and invest </h3>
 
           <div className="outer__signup">
-            <div>Buisness</div>
-            <div>Investor</div>
+            <div className="buisness">Buisness</div>
+            <div className="buisness">Investor</div>
           </div>
-          <input placeholder="Buisness Signup" />
+          <input className="buisness__signup" placeholder="Buisness Signup" />
         </div>
       </section>
     </Aux>

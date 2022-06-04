@@ -20,3 +20,17 @@
   justify-content: center;
   align-items: center;
 }
+
+.buisness {
+  padding: 1rem;
+  background-color: white;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.buisness__signup
+{
+  padding: 1rem;
+}
