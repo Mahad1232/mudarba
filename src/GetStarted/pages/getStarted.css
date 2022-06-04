@@ -28,9 +28,15 @@
   margin-left: 0.5rem;
   border-radius: 10px;
   border: 1px solid black;
+  width: 7vw;
 }
 
-.buisness__signup
-{
-  padding: 1rem;
+.buisness__signup {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  width: 20vw;
+}
+
+.buisness__signup:focus {
+  outline: none;
 }
