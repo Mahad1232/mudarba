@@ -28,7 +28,30 @@ const getStarted = () => {
   };
 
   const postData = () => {
-    console.log(user);
+
+    event.preventDefault();
+
+    const 
+    {
+      choice,buisnessName,category,cro,regNo,regDate,
+      ab,filling,logo,email,phoneNo
+    } = user;
+
+    await fetch("/buisness", {
+            //Setting Method
+            method:"POST",
+
+            //Setting Headers
+            headers:{
+                //Setting Content-Type
+                "Content-Type" : "application/json"
+            },
+            //Stringifying the email and password and storing it into body
+            body:JSON.stringify({
+              choice,buisnessName,category,cro,regNo,regDate,
+              ab,filling,logo,email,phoneNo
+            })
+        })
   };
 
   const buisnessChoice = () => {
