@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import GetStartedPage from '../pages/getStarted';
 
-import { useState } from 'react-router-dom';
-
 const getStarted = () => {
-  // const [user, setUser] = useState({
-  //   h1: 'hello'
-  // });
+  const [user, setUser] = useState({
+    choice: '',
+    buisnessName: '',
+    category: '',
+    cro: '',
+    regNo: '',
+    regDate: '',
+    ab: '',
+    filling: '',
+    logo: '',
+    email: '',
+    phoneNo: '',
+  });
+
   return <GetStartedPage />;
 };
 

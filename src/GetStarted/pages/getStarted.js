@@ -15,28 +15,79 @@ const getStartedPage = () => {
           <h3 className="finPock">FinPocket helps u save and invest </h3>
 
           <div className="outer__signup">
-            <div className="buisness">Buisness</div>
-            <div className="buisness">Investor</div>
+            <div className="choice" className="buisness">
+              Buisness
+            </div>
+            <div className="choice" className="buisness">
+              Investor
+            </div>
           </div>
-          <input className="buisness__signup" placeholder="Buisness Name" />
+
+          <input
+            name="buisnessName"
+            className="buisness__signup"
+            placeholder="Buisness Name"
+          />
           <br />
-          <input className="buisness__signup" placeholder="Category" />
+
+          <input
+            className="buisness__signup"
+            placeholder="Category"
+            name="category"
+          />
           <br />
-          <input className="buisness__signup" placeholder="CRO" />
+
+          <input className="buisness__signup" placeholder="CRO" name="cro" />
           <br />
-          <input className="buisness__signup" placeholder="Reg No" />
+
+          <input
+            name="regNo"
+            className="buisness__signup"
+            placeholder="Reg No"
+          />
           <br />
-          <input className="buisness__signup" placeholder="Reg Date" />
+
+          <input
+            name="regDate"
+            className="buisness__signup"
+            placeholder="Reg Date"
+          />
           <br />
-          <input className="buisness__signup" placeholder="From A/B uptodate" />
+
+          <input
+            name="ab"
+            className="buisness__signup"
+            placeholder="From A/B uptodate"
+          />
           <br />
-          <input className="buisness__signup" placeholder="Mandotary Filling" />
+
+          <input
+            name="filling"
+            className="buisness__signup"
+            placeholder="Mandotary Filling"
+          />
           <br />
-          <input className="buisness__signup" placeholder="Buisness Logo" />
+
+          <input
+            name="logo"
+            className="buisness__signup"
+            placeholder="Buisness Logo"
+          />
           <br />
-          <input className="buisness__signup" placeholder="Email" />
+
+          <input
+            name="email"
+            className="buisness__signup"
+            placeholder="Email"
+          />
           <br />
-          <input className="buisness__signup" placeholder="Phone no" />
+
+          <input
+            name="phoneNo"
+            className="buisness__signup"
+            placeholder="Phone no"
+          />
+          <br />
         </div>
       </section>
     </Aux>
