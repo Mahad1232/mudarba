@@ -31,11 +31,21 @@ const getStarted = () => {
     console.log(user);
   };
 
+  const buisnessChoice = () => {
+    setUser({ ...user, choice: 'Buisness' });
+  };
+
+  const investorChoice = () => {
+    setUser({ ...user, choice: 'Investor' });
+  };
+
   return (
     <GetStartedPage
       user={user}
       changeHandler={changeHandler}
       postData={postData}
+      buisnessChoice={buisnessChoice}
+      investorChoice={investorChoice}
     />
   );
 };
