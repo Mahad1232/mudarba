@@ -17,7 +17,27 @@ const getStarted = () => {
     phoneNo: '',
   });
 
-  return <GetStartedPage />;
+  let name, value;
+
+  const changeHandler = (event) => {
+    event.preventDefault();
+    name = event.target.name;
+    value = event.target.value;
+
+    setUser({ ...user, [name]: value });
+  };
+
+  const postData = () => {
+    console.log(user);
+  };
+
+  return (
+    <GetStartedPage
+      user={user}
+      changeHandler={changeHandler}
+      postData={postData}
+    />
+  );
 };
 
 export default getStarted;

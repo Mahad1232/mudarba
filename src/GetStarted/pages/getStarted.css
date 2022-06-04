@@ -40,3 +40,13 @@
 .buisness__signup:focus {
   outline: none;
 }
+
+.post {
+  padding: 0.5rem 1rem;
+  background-color: rgb(132, 196, 37);
+  width: 8vw;
+  margin: auto;
+  margin-top: 1rem;
+  color: white;
+  border-radius: 10px;
+}
