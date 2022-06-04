@@ -18,36 +18,25 @@ const getStartedPage = () => {
             <div className="buisness">Buisness</div>
             <div className="buisness">Investor</div>
           </div>
-
           <input className="buisness__signup" placeholder="Buisness Name" />
           <br />
-
           <input className="buisness__signup" placeholder="Category" />
           <br />
-
           <input className="buisness__signup" placeholder="CRO" />
           <br />
-
           <input className="buisness__signup" placeholder="Reg No" />
           <br />
-
           <input className="buisness__signup" placeholder="Reg Date" />
           <br />
-
           <input className="buisness__signup" placeholder="From A/B uptodate" />
           <br />
-
           <input className="buisness__signup" placeholder="Mandotary Filling" />
           <br />
-
           <input className="buisness__signup" placeholder="Buisness Logo" />
           <br />
-
           <input className="buisness__signup" placeholder="Email" />
           <br />
-
           <input className="buisness__signup" placeholder="Phone no" />
-          <br />
         </div>
       </section>
     </Aux>
